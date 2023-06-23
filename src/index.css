@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-abril{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.font-pop{
+  font-family: 'Poppins', sans-serif;
+}
+
+.list_container {
+  direction: rtl;
+  overflow-y:scroll;
+
+}
+
+.item_direction {
+  direction:ltr;
+  margin-left: 2rem;
+}
+
+.list_container::-webkit-scrollbar {
+  width: 2px;
+}
+
+.list_container::-webkit-scrollbar-track {
+  background: #979EA9;
+}
+
+.list_container::-webkit-scrollbar-thumb {
+  border-right: solid black;
+}
