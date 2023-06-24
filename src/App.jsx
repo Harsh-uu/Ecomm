@@ -8,7 +8,7 @@ import Collection from './Collection';
 function App() {
   return (
     <div>
-      <div className='grid grid-cols-3 relative border-2 border-red-500'>
+      <div className='grid grid-cols-3 relative'>
       <img src="/assets/cheerful-young-man-dressed-shirt-wearing-hat-transformed.png" className='absolute lg:h-[94%] md:h-[84%] xl:h-full bottom-0 object-cover right-1/2 xl:translate-x-[46%] lg:translate-x-[40%] md:translate-x-[40%] -scale-x-100 z-10 hidden sm:hidden md:block'  alt="" />
       <div className='flex justify-between  mt-6 absolute top-0 w-full left-0 bg-transparent z-40'>
         <nav className='flex gap-6 xl:ml-28 lg:ml-20 md:ml-16 cursor-pointer'>
@@ -46,8 +46,8 @@ function App() {
             <button><FaPaypal className='ml-10'/></button>
           </div>
           </div>
-            <img src="https://cdn.vox-cdn.com/thumbor/jFhIJ7yPAtDIW8Qp2cJS3JaJcl8=/0x0:3144x3144/1200x800/filters:focal(1321x1321:1823x1823)/cdn.vox-cdn.com/uploads/chorus_image/image/50217517/AM1_20Ultra_20Flyknit_207.0.png" className=' xl:max-w-[90%] mt-10 xl:h-52 lg:max-w-[80%] lg:h-44 md:max-w-[90%] md:h-36 xl:ml-[3.8rem] lg:ml-[2.8rem] md:ml-[0.1rem]' alt="Nike air" />
-            <h1 className='font-abril mt-4  xl:text-[1.7rem] lg:text-[1.5rem] md:text-[1.2rem] xl:ml-[6rem] lg:ml-[3.8rem] md:ml-[2rem]'>Nike air shoes</h1>
+            <img src="https://cdn.vox-cdn.com/thumbor/jFhIJ7yPAtDIW8Qp2cJS3JaJcl8=/0x0:3144x3144/1200x800/filters:focal(1321x1321:1823x1823)/cdn.vox-cdn.com/uploads/chorus_image/image/50217517/AM1_20Ultra_20Flyknit_207.0.png" className=' xl:max-w-[90%] mt-1 xl:h-52 lg:max-w-[80%] lg:h-44 md:max-w-[90%] md:h-36 xl:ml-[3.8rem] lg:ml-[2.8rem] md:ml-[0.1rem]' alt="Nike air" />
+            <h1 className='font-abril mt-4  xl:text-[1.7rem] lg:text-[1.5rem] md:text-[1.2rem] xl:ml-[6rem] lg:ml-[3.8rem] md:ml-[2rem]'>Nike Air shoes</h1>
         </div>
         <div className='bg-gradient-to-t from-[#e0e0e4] to-[#f6f6fa] h-screen -skew-x-6 relative' >
         </div>
