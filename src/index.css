@@ -21,7 +21,6 @@
 
 .item_direction {
   direction:ltr;
-  margin-left: 1.5rem;
 }
 
 .list_container::-webkit-scrollbar {

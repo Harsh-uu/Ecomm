@@ -3,7 +3,7 @@ import React from 'react'
 function Collection() {
   return (
     <div className='bg-white'>
-    <h1 className='font-abril pt-24 text-4xl text-center'>New collection of us</h1>
+    {/* <h1 className='font-abril pt-24 text-4xl text-center'>New collection of us</h1>
     <div className='grid grid-cols-2 gap-10 mt-6 mx-auto h-96 max-w-[70%] font-pop'>
         <span className=' grid grid-cols-2 rounded-lg border-2 border-black overflow-hidden'>
         <div className='bg-[#e7b790] '>
@@ -33,7 +33,7 @@ function Collection() {
         </span>
         <span className='border-2 border-black'>r</span>
         <span className='border-2 border-black'>s</span>
-    </div>
+    </div> */}
     </div>
   )
 }
